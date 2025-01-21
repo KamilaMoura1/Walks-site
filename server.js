@@ -46,6 +46,8 @@ app.get("/crud", ensureAuthenticated, async (req, res) => {
   res.render("crud", { items: result.data });
 });
 
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
-});
+//app.listen(3000, () => {
+//  console.log("Server running on http://localhost:3000");
+//});
+
+export default app;
